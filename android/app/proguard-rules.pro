@@ -1,0 +1,1 @@
+-keep class com.purplewhale.example.BuildConfig { *; }

@@ -41,7 +41,7 @@ final ThemeData appTheme = ThemeData(
   ),
   fontFamily: 'Inter',
   textTheme: textTheme,
-  dialogTheme: const DialogTheme(
+  dialogTheme: const DialogThemeData(
     backgroundColor: AppColors.background,
     surfaceTintColor: Colors.transparent,
     titleTextStyle: TextStyle(

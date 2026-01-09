@@ -1,15 +1,15 @@
 import 'dart:developer';
 
 import 'package:get/get.dart';
-import 'package:url_launcher/url_launcher_string.dart';
+// import 'package:url_launcher/url_launcher_string.dart';
 
-Future<void> launchURL(String url) async {
-  if (await canLaunchUrlString(url)) {
-    await launchUrlString(url);
-  } else {
-    log('Could not launch $url');
-  }
-}
+// Future<void> launchURL(String url) async {
+//   if (await canLaunchUrlString(url)) {
+//     await launchUrlString(url);
+//   } else {
+//     log('Could not launch $url');
+//   }
+// }
 
 String getWeekdayString(int index) {
   switch (index) {

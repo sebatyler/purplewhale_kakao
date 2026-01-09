@@ -4,20 +4,18 @@ PODS:
     - Flutter
   - flutter_naver_login (0.0.1):
     - Flutter
-    - naveridlogin-sdk-ios (~> 4.1.0)
+    - NidThirdPartyLogin (~> 5.0.0)
   - flutter_secure_storage (6.0.0):
     - Flutter
-  - kakao_flutter_sdk_common (1.9.5):
+  - kakao_flutter_sdk_common (1.10.0):
     - Flutter
-  - naveridlogin-sdk-ios (4.1.6)
+  - NidThirdPartyLogin (5.0.1)
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
-  - url_launcher_ios (0.0.1):
-    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -27,11 +25,10 @@ DEPENDENCIES:
   - kakao_flutter_sdk_common (from `.symlinks/plugins/kakao_flutter_sdk_common/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
-  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
 
 SPEC REPOS:
   trunk:
-    - naveridlogin-sdk-ios
+    - NidThirdPartyLogin
 
 EXTERNAL SOURCES:
   Flutter:
@@ -48,20 +45,17 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
   shared_preferences_foundation:
     :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
-  url_launcher_ios:
-    :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_config: f48f0d47a284f1791aacce2687eabb3309ba7a41
-  flutter_naver_login: 1dbf6d21aae5235cdf76a28ac79cf6871899282f
-  flutter_secure_storage: 23fc622d89d073675f2eaa109381aefbcf5a49be
-  kakao_flutter_sdk_common: 985c7085c29a2bd949972cadac8238845dc354db
-  naveridlogin-sdk-ios: cdd34e3585a3d5aaf37c1d84c1f41faba4a25d1a
-  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
-  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
-  url_launcher_ios: 6116280ddcfe98ab8820085d8d76ae7449447586
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_config: a0cd4b5996f2a1683657d14777c8fa57e04a40ea
+  flutter_naver_login: 965ca284c1a64f0185dfaf9dfd1b8f69f34e6c11
+  flutter_secure_storage: 1ed9476fba7e7a782b22888f956cce43e2c62f13
+  kakao_flutter_sdk_common: 682b3606698f87467788598dc2dc09d4e6867fbd
+  NidThirdPartyLogin: ed291a543cc60a433bcad522b6bf7d3126ad4fdc
+  path_provider_foundation: bb55f6dbba17d0dccd6737fe6f7f34fbd0376880
+  shared_preferences_foundation: 7036424c3d8ec98dfe75ff1667cb0cd531ec82bb
 
-PODFILE CHECKSUM: a379148646356ed3968ee747158284d125b21536
+PODFILE CHECKSUM: 1e2dbad152cd8d5068872b336d5d8d9f2e3cdd17
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

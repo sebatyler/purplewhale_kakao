@@ -122,13 +122,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>naverConsumerKey</key>
-	<string>$(NAVER_CLIENT_ID)</string>
-	<key>naverConsumerSecret</key>
-	<string>$(NAVER_CLIENT_SECRET)</string>
-	<key>naverServiceAppName</key>
-	<string>Purple Whale</string>
-	<key>naverServiceAppUrlScheme</key>
+	<key>NidUrlScheme</key>
 	<string>$(NAVER_URL_SCHEME)</string>
+	<key>NidClientID</key>
+	<string>$(NAVER_CLIENT_ID)</string>
+	<key>NidClientSecret</key>
+	<string>$(NAVER_CLIENT_SECRET)</string>
+	<key>NidAppName</key>
+	<string>Purple Whale</string>
 </dict>
 </plist>
